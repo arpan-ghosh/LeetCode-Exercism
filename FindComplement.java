@@ -31,10 +31,5 @@ public class FindComplement {
 		return numComplement;
     	
     }
-    
-    public static void main(String[] args) {
-    	System.out.print(findComplement(-8));
-    }
-
-
+	
 }
