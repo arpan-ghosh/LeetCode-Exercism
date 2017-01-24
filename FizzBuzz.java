@@ -17,10 +17,10 @@ public class FizzBuzz {
 	    	    
 		public static List<String> fizzBuzz(int n) {
 			
-			
 			for (int i = n; i > 0; i--) {
 	    		numString = String.valueOf(count);
-	    		if ((count % 3 == 0) && (count % 5 == 0)) {
+	    		
+				if ((count % 3 == 0) && (count % 5 == 0)) {
 	    			list.add("FizzBuzz");
 	    		} else if (count % 3 == 0) {
 	    			list.add("Fizz");
@@ -31,9 +31,7 @@ public class FizzBuzz {
 	    		}
 	    		count++;
 			}
-			
-			return list;
-	    		        
+			return list;	        
 	    }
 		    
 	    public static void main (String[] args) {
