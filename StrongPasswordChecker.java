@@ -34,7 +34,7 @@ public class StrongPasswordChecker {
 		
 		if (s.length() <= 20 && s.length() >= 6) {
 			System.out.println(s + " meets length criteria");
-			length = true;
+			length = true; 
 		}
 			
 		if (s.matches(".*\\d.*")) {
