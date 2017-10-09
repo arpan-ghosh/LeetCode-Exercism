@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /** 7A */
-public class HW7A {
+public class TwoDArrayA {
 
    /** Averaging numbers in segments.
     *  @param previous value to the left
