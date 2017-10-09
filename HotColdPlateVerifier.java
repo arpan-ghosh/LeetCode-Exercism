@@ -26,7 +26,7 @@ import java.util.NoSuchElementException;
 * defined "H" doubles, "C" doubles and 0.0's), a line space, then the new array
 * full of the averaged, stabilized doubles.
 */
-public class HW7B {
+public class HotColdPlateVerifier {
 
    static char[][] copy;
 
